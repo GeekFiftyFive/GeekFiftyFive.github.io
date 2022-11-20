@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-![selfie]({{ site.url }}/assets/selfie.png)
+<img src="{{ site.url }}/assets/selfie.jpg" alt="Picture of me!" width="200"/>
 
 I'm Amy! A senior software engineer based in the United Kingdom! I primarily work with TypeScript,
 developing serverless applications hosted in AWS. I have a lot of experience working with
