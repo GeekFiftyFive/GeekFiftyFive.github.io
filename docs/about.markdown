@@ -1,18 +1,16 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+![selfie]({{ site.url }}/assets/selfie.png)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I'm Amy! A senior software engineer based in the United Kingdom! I primarily work with TypeScript,
+developing serverless applications hosted in AWS. I have a lot of experience working with
+micro-service based architectures, using asynchronous messaging to communicate with one another.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I also have experience working in the fron end too! Using React + Typescript to develop rich
+web applications, and utilising GraphQL to communicate with multiple backend microservices.
 
-
-[jekyll-organization]: https://github.com/jekyll
+Outside of software development, I'm also fond of video games, animation and art!
