@@ -31,9 +31,9 @@ For a complete and up to date rundown of all of Sunda's functionality, the docs 
 
 For the sake of keeping this page concise, I will be giving a short demo of the sort of functionality `sunda` supports at the time of writing.
 
-I have hosted an example JSON file <a href="{{ site.url }}/assets/sunda-demo.json" target="_blank">here</a>. This data was generated using a simple script that utilises [faker-js](https://www.npmjs.com/package/@faker-js/faker).
+I have hosted an example JSON file <a href="{{ site.url }}/assets/sunda-demo.json" target="_blank">here</a>. This data was generated using a simple script that utilizes [faker-js](https://www.npmjs.com/package/@faker-js/faker).
 
-This file can be downloaded directly, or it can be piped straight from curl to sunda, so long as a query is passed in using either the `-q` or `--query` parameters. Passing one of these parmeters takes `sunda` out of REPL mode and instead enables it to read data from `stdin`, and write it either to `stdout` or to an output file using the `-o` or `--output` parameters.
+This file can be downloaded directly, or it can be piped straight from curl to sunda, so long as a query is passed in using either the `-q` or `--query` parameters. Passing one of these parameters takes `sunda` out of REPL mode and instead enables it to read data from `stdin`, and write it either to `stdout` or to an output file using the `-o` or `--output` parameters.
 
 Let's run a simple query against the data in the file mentioned earlier! For starters, lets just check for string equality against one of the fields! Running the following query:
 
@@ -62,7 +62,7 @@ Nets us this result:
 ]
 ```
 
-Note, the result has been pretified for readability.
+Note, the result has been prettified for readability.
 
 Say we didn't just want to match one string literally, and wanted to match on multiple different strings that all contain a certain pattern. Running the following query:
 
@@ -188,7 +188,7 @@ This demos some of Sunda's features that weren't demoed in the previous examples
 
 First of all, it is able to Join other fields in the input JSON so long as they also refer to an array.
 
-It also demonstrates it's ability to perform arithemtic, and numeric comparisons, as well as being able to use the boolean operators `and` and `or`, with proper precedence.
+It also demonstrates it's ability to perform arithmetic, and numeric comparisons, as well as being able to use the boolean operators `and` and `or`, with proper precedence.
 
 Lastly it supports aggregations such as `count` and `sum`.
 
