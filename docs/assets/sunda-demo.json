@@ -1,0 +1,386 @@
+{
+    "People": [
+        {
+            "firstName": "Ila",
+            "lastName": "Gibson",
+            "company": "Brekke - Deckow",
+            "favoriteSongs": [
+                "I Still Haven't Found What I'm Looking For",
+                "Ring of Fire",
+                "Ball of Confusion (That's What the World is Today)",
+                "He's So Fine"
+            ],
+            "favoriteGenre": "Pop",
+            "recentRelease": "When a Man Loves a Woman",
+            "age": 74
+        },
+        {
+            "firstName": "Meta",
+            "lastName": "Gerlach",
+            "company": "Pollich - Terry",
+            "favoriteSongs": [
+                "God Bless the Child",
+                "The Way You Look Tonight",
+                "Rock With You",
+                "Battle of New Orleans"
+            ],
+            "favoriteGenre": "Non Music",
+            "recentRelease": "Hey Paula",
+            "age": 84
+        },
+        {
+            "firstName": "Beryl",
+            "lastName": "Mann",
+            "company": "Corkery, Thompson and Marks",
+            "favoriteSongs": [
+                "The End of the World",
+                "Because You Loved Me",
+                "Fame",
+                "Me & Bobby McGee"
+            ],
+            "favoriteGenre": "Folk",
+            "recentRelease": "You Make Me Feel Like Dancing",
+            "age": 37
+        },
+        {
+            "firstName": "Adelle",
+            "lastName": "Abbott",
+            "company": "Nikolaus Group",
+            "favoriteSongs": [
+                "White Rabbit",
+                "Can't Buy Me Love",
+                "I Still Haven't Found What I'm Looking For",
+                "The Letter"
+            ],
+            "favoriteGenre": "Funk",
+            "recentRelease": "My Sharona",
+            "age": 73
+        },
+        {
+            "firstName": "Irma",
+            "lastName": "Greenholt",
+            "company": "Heaney, Legros and Kirlin",
+            "favoriteSongs": [
+                "The Morning After",
+                "Nothing Compares 2 U",
+                "Fortunate Son",
+                "Bridge Over Troubled Water"
+            ],
+            "favoriteGenre": "Pop",
+            "age": 84,
+            "recentRelease": "Lola"
+        },
+        {
+            "firstName": "Gabe",
+            "lastName": "Hansen",
+            "company": "Hand - Hettinger",
+            "favoriteSongs": [
+                "Fallin'",
+                "Buttons & Bows",
+                "Sh-Boom (Life Could Be a Dream)",
+                "Umbrella"
+            ],
+            "favoriteGenre": "Classical",
+            "age": 34,
+            "recentRelease": "Love Is Blue (L'Amour Est Bleu)"
+        },
+        {
+            "firstName": "Fletcher",
+            "lastName": "Hyatt",
+            "company": "Dietrich Inc",
+            "favoriteSongs": [
+                "No One",
+                "The First Time Ever I Saw Your Face",
+                "Horse With No Name",
+                "I Went to Your Wedding"
+            ],
+            "favoriteGenre": "Country",
+            "age": 84,
+            "recentRelease": "Save the Last Dance For Me"
+        },
+        {
+            "firstName": "Ophelia",
+            "lastName": "Durgan",
+            "company": "Raynor LLC",
+            "favoriteSongs": [
+                "Eight Days a Week",
+                "Get Back",
+                "Do That to Me One More Time",
+                "We Are the World"
+            ],
+            "favoriteGenre": "Metal",
+            "age": 82,
+            "recentRelease": "Green Tambourine"
+        },
+        {
+            "firstName": "Gladyce",
+            "lastName": "Ankunding",
+            "company": "Bechtelar, Kihn and Gulgowski",
+            "favoriteSongs": [
+                "The End of the World",
+                "You Sexy Thing",
+                "Pop Muzik",
+                "A Thousand Miles"
+            ],
+            "favoriteGenre": "Rock",
+            "age": 59,
+            "recentRelease": "There goes my baby"
+        },
+        {
+            "firstName": "Christa",
+            "lastName": "Kertzmann",
+            "company": "Mueller Inc",
+            "favoriteSongs": [
+                "When Doves Cry",
+                "I'll be seeing you",
+                "Rapture",
+                "The Love You Save"
+            ],
+            "favoriteGenre": "Country",
+            "age": 23,
+            "recentRelease": "West End Blues"
+        },
+        {
+            "firstName": "Maybell",
+            "lastName": "Conn",
+            "company": "Runolfsdottir, Schmidt and Ryan",
+            "favoriteSongs": [
+                "Mr Big Stuff",
+                "Daydream Believer",
+                "Moonlight Cocktail",
+                "We Found Love"
+            ],
+            "favoriteGenre": "Jazz",
+            "age": 45,
+            "recentRelease": "Crimson & Clover"
+        },
+        {
+            "firstName": "Floyd",
+            "lastName": "Wolf",
+            "company": "Bashirian, Cassin and Ryan",
+            "favoriteSongs": [
+                "Groove is in the Heart",
+                "Locked Out Of Heaven",
+                "Bad Romance",
+                "Love Train"
+            ],
+            "favoriteGenre": "Folk",
+            "age": 72,
+            "recentRelease": "Shining Star"
+        },
+        {
+            "firstName": "Albertha",
+            "lastName": "Gusikowski",
+            "company": "Lakin, Leuschke and Kassulke",
+            "favoriteSongs": [
+                "Lights",
+                "All My Lovin' (You're Never Gonna Get It)",
+                "The Tide is High",
+                "Baker Street"
+            ],
+            "favoriteGenre": "Pop",
+            "age": 63,
+            "recentRelease": "Do Ya Think I'm Sexy?"
+        },
+        {
+            "firstName": "Macy",
+            "lastName": "Stroman",
+            "company": "Mayert, Miller and Kuhlman",
+            "favoriteSongs": [
+                "Tutti Frutti",
+                "It's All in the Game",
+                "Night & Day",
+                "Dance to the Music"
+            ],
+            "favoriteGenre": "Rock",
+            "age": 20,
+            "recentRelease": "We Are Family"
+        },
+        {
+            "firstName": "Dillon",
+            "lastName": "Stoltenberg",
+            "company": "Reinger and Sons",
+            "favoriteSongs": [
+                "Firework",
+                "My Eyes Adored You",
+                "Love Letters in the Sand",
+                "Born to Be Wild"
+            ],
+            "favoriteGenre": "World",
+            "age": 48,
+            "recentRelease": "That's Amore"
+        },
+        {
+            "firstName": "Alexandre",
+            "lastName": "Bahringer",
+            "company": "Fay - Balistreri",
+            "favoriteSongs": [
+                "Money For Nothing",
+                "Dance to the Music",
+                "The Sign",
+                "I'll Make Love to You"
+            ],
+            "favoriteGenre": "Blues",
+            "age": 53,
+            "recentRelease": "Dreamlover"
+        },
+        {
+            "firstName": "Ari",
+            "lastName": "Lang",
+            "company": "Kilback - Prohaska",
+            "favoriteSongs": [
+                "Physical",
+                "Poker Face",
+                "Chapel of Love",
+                "Hello"
+            ],
+            "favoriteGenre": "Funk",
+            "age": 74,
+            "recentRelease": "Before The Next Teardrop Falls"
+        },
+        {
+            "firstName": "Stanford",
+            "lastName": "Hilll",
+            "company": "Ankunding Inc",
+            "favoriteSongs": [
+                "Crocodile Rock",
+                "Blaze of Glory",
+                "I Got You (I Feel Good)",
+                "Peggy Sue"
+            ],
+            "favoriteGenre": "Blues",
+            "age": 65,
+            "recentRelease": "Some of These Days"
+        },
+        {
+            "firstName": "Aurelie",
+            "lastName": "Bednar",
+            "company": "Stehr - Ankunding",
+            "favoriteSongs": [
+                "Nothing's Gonna Stop Us Now",
+                "I Just Wanna Be Your Everything",
+                "Reunited",
+                "Crocodile Rock"
+            ],
+            "favoriteGenre": "Funk",
+            "age": 29,
+            "recentRelease": "I Just Called to Say I Love You"
+        },
+        {
+            "firstName": "Olin",
+            "lastName": "Sanford",
+            "company": "Nader and Sons",
+            "favoriteSongs": [
+                "Green River",
+                "Kung Fu Fighting",
+                "Rock With You",
+                "I Will Follow Him"
+            ],
+            "favoriteGenre": "Rock",
+            "age": 64,
+            "recentRelease": "A Boy Named Sue"
+        }
+    ],
+    "Songs": [
+        {
+            "songName": "A Boy Named Sue",
+            "genre": "Metal",
+            "plays": 4040
+        },
+        {
+            "songName": "I Just Called to Say I Love You",
+            "genre": "Pop",
+            "plays": 8681
+        },
+        {
+            "songName": "Some of These Days",
+            "genre": "Latin",
+            "plays": 6406
+        },
+        {
+            "songName": "Before The Next Teardrop Falls",
+            "genre": "Soul",
+            "plays": 3201
+        },
+        {
+            "songName": "Dreamlover",
+            "genre": "Stage And Screen",
+            "plays": 7901
+        },
+        {
+            "songName": "That's Amore",
+            "genre": "Folk",
+            "plays": 4943
+        },
+        {
+            "songName": "We Are Family",
+            "genre": "Hip Hop",
+            "plays": 4935
+        },
+        {
+            "songName": "Do Ya Think I'm Sexy?",
+            "genre": "Pop",
+            "plays": 900
+        },
+        {
+            "songName": "Shining Star",
+            "genre": "Soul",
+            "plays": 5154
+        },
+        {
+            "songName": "Crimson & Clover",
+            "genre": "Stage And Screen",
+            "plays": 9854
+        },
+        {
+            "songName": "West End Blues",
+            "genre": "Pop",
+            "plays": 8871
+        },
+        {
+            "songName": "There goes my baby",
+            "genre": "Classical",
+            "plays": 7825
+        },
+        {
+            "songName": "Green Tambourine",
+            "genre": "Country",
+            "plays": 2787
+        },
+        {
+            "songName": "Save the Last Dance For Me",
+            "genre": "Electronic",
+            "plays": 4692
+        },
+        {
+            "songName": "Love Is Blue (L'Amour Est Bleu)",
+            "genre": "Non Music",
+            "plays": 9396
+        },
+        {
+            "songName": "Lola",
+            "genre": "Metal",
+            "plays": 1631
+        },
+        {
+            "songName": "My Sharona",
+            "genre": "World",
+            "plays": 4020
+        },
+        {
+            "songName": "You Make Me Feel Like Dancing",
+            "genre": "Hip Hop",
+            "plays": 7302
+        },
+        {
+            "songName": "Hey Paula",
+            "genre": "Stage And Screen",
+            "plays": 5994
+        },
+        {
+            "songName": "When a Man Loves a Woman",
+            "genre": "Electronic",
+            "plays": 1738
+        }
+    ]
+}
