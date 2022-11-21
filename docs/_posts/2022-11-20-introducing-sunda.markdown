@@ -9,11 +9,11 @@ categories: personal-projects sunda
 
 Sunda is a project that I started about 2 years ago at the time of writing. It is a small tool written in TypeScript that allows for the querying of JSON arrays via an SQL-like language.
 
-Who did I write this tool for? Me of course! In my day to day job I often find myself pouring through large JSON arrays returned by some kind of API (the AWS api being a common one), and I was often findings myself wishing I had some more powerful tooling to search for relevant data inside of the array.
+Who did I write this tool for? Me of course! In my day to day job I often find myself pouring through large JSON arrays returned by some kind of API (the AWS api being a common one), and I was often finding myself wishing I had some more powerful tooling to search for relevant data inside of the array.
 
-A lot of this can be facilitated by `jq`, but there's 1 small issue, I don't personally _like_ `jq`'s query syntax. This isn't a dig at `jq`, it is a very powerful tool that I make frequent use of when building CI/CD pipelines and other automated scripts the handle JSON data. But when I am using a tool for some adhoc investigative work, I want something that feels more intuitive, and it to me personally, `jq`'s query syntax just doesn't feel intuitive to write.
+A lot of this can be facilitated by `jq`, but there's 1 small issue, I don't personally _like_ `jq`'s query syntax. This isn't a dig at `jq`, it is a very powerful tool that I make frequent use of when building CI/CD pipelines and other automated scripts that handle JSON data. But when I am using a tool for some adhoc investigative work, I want something that feels more intuitive, and to me personally, `jq`'s query syntax just doesn't feel intuitive to write.
 
-So, that begs the question, what _is_ an intuitive query syntax to write? Well, for most devs, myself included, SQL is an excellent example of query language that feels intuitive. Being able to use a SQL-like language to query random blobs of JSON data that have been pulled from an API or exported from the AWS console would be very, very useful.
+So, that begs the question, what _is_ an intuitive query syntax to write? Well for most devs, myself included, SQL is an excellent example of a query language that feels intuitive. Being able to use a SQL-like language to query random blobs of JSON data that have been pulled from an API or exported from the AWS console would be very, very useful.
 
 So, with that logic in mind, I embarked on writing `sunda`, a small utility that could read arbitrary JSON data from `stdin` or a specified file, and then query arrays of data that reside in that JSON.
 
@@ -23,7 +23,7 @@ The source code of the project can be found [here](https://github.com/GeekFiftyF
 
 Sunda is written in TypeScript, and has 0 production dependencies. The only dependencies are dev dependencies, e.g. TypeScript for transpiling the code and Jest for testing.
 
-Released of the project are hosted on `npm` and can be found [here](https://www.npmjs.com/package/sunda). Deploying releases of the project to `npm` means it can be installed and ran very easily by running `npx sunda` or `npm install -g sunda` followed by `sunda`.
+Releases of the project are hosted on `npm` and can be found [here](https://www.npmjs.com/package/sunda). Deploying releases of the project to `npm` means it can be installed and ran very easily by running `npx sunda` or `npm install -g sunda` followed by `sunda`.
 
 # Basic Demo
 
@@ -157,7 +157,7 @@ This will yield the following results:
 Finally, say we wanted to get a count of all of the unique values of the `favoriteGenre` field, we can use the `distinct` keyword wrapped inside of a `count`.
 
 ```sql
-SELECT DISTINCT favoriteGenre FROM People
+SELECT COUNT(DISTINCT favoriteGenre) FROM People
 ```
 
 This will yield the following result:
@@ -188,7 +188,7 @@ This demos some of Sunda's features that weren't demoed in the previous examples
 
 First of all, it is able to Join other fields in the input JSON so long as they also refer to an array.
 
-It also demonstrates it's ability to perform arithemtic, and numeric comparisons.
+It also demonstrates it's ability to perform arithemtic, and numeric comparisons, as well as being able to use the boolean operators `and` and `or`, with proper precedence.
 
 Lastly it supports aggregations such as `count` and `sum`.
 
