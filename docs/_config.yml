@@ -22,7 +22,7 @@ title: Amy Pellatt
 description: >- # this means to ignore newlines until "baseurl:"
   This is a personal blog! I share things that interest me,
   as well as tutorials and other things that may be going on
-  in my life!
+  in my life! All opinions are my own :^)
 baseurl: '/' # the subpath of your site, e.g. /blog
 url: 'https://amypellatt.com' # the base hostname & protocol for your site, e.g. http://example.com
 github_username: GeekFiftyFive

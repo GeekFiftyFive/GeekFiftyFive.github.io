@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Using SQL like syntax to query JSON with Sunda'
-date: 2022-11-20 18:20:00 +0000
+date: 2022-11-21 18:20:00 +0000
 categories: personal-projects sunda
 ---
 
